@@ -15,3 +15,7 @@ Usando elementos da DOM para simular processo de contratação de empregados em 
 3. Qualquer variável fora do limite de escopo local não será permitida.
 4. HTML mínimo.
 5. Seguindo as regras acima, use JS para gerar novos elementos e renderizalos em tela o máximo possível ao invés de usar html.
+
+### NOTES:
+1. There are two indexes, one which is just a demo testing css.
+2. And the another one, which is running the code.

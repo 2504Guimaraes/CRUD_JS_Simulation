@@ -2,7 +2,7 @@ function add_CSS_FontStyle() {
 
     const style_css = document.createElement('style'),
         content = document.createTextNode(
-            '@charset "utf-8"; @font-face { font-family: "Titillium Regular"; src: url("css/fontes/TitilliumWeb/TitilliumWeb-Regular.ttf"); } @font-face { font-family: "Titillium SBold"; src: url("css/fontes/TitilliumWeb/TitilliumWeb-SemiBold.ttf"); } @font-face { font-family: "Titillium Bold"; src: url("css/fontes/TitilliumWeb/TitilliumWeb-Bold.ttf"); }'
+            '@charset "utf-8"; @font-face { font-family: "Titillium Regular"; src: url("css/font/TitilliumWeb/TitilliumWeb-Regular.ttf"); } @font-face { font-family: "Titillium SBold"; src: url("css/font/TitilliumWeb/TitilliumWeb-SemiBold.ttf"); } @font-face { font-family: "Titillium Bold"; src: url("css/font/TitilliumWeb/TitilliumWeb-Bold.ttf"); }'
         );
     
     style_css.appendChild(content);

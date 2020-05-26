@@ -18,7 +18,7 @@ Usando elementos da DOM para simular processo de contratação de empregados em 
 
 ### NOTES / NOTAS
 1. There are two indexes, one which is just a demo testing css.
+Há dois indexes html, indexTest apenas roda css.
+
 2. And the another one, which is running the code.
-<hr>
-1. Há dois indexes html, indexTest apenas roda css.
-2. O outro é o principal, o qual roda JS.
+O outro é o principal, o qual roda JS.

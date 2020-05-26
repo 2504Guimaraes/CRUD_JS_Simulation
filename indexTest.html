@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Projeto CRUD - Javascript</title>
+		<script src="js/style.js"></script>
+	</head>
+	<body>
+
+		<main id="main-container">
+			<section class="main-sections">
+				
+				<section class="form-section" id="create-form">
+					<h2>Cadastro Funcionário</h2>
+					<p>
+						Ao cadastrar o funcionário bote todas as características 
+						obrigatórias abaixo, caso alguma esteeja faltando o funcionário 
+						não poderá ser cadastrado.
+					</p>
+
+					<label class="first-label" for="input-nm-funcioario">Insira o nome do funcionário:</label>
+					<input 
+						id="input-nm-funcioario" 
+						class="inputs" 
+						type="text" 
+						name="nome-funcionario"
+						minlength="5" 
+						required
+						placeholder=" Digite seu nome" 
+					>
+
+					<label for="input-cargo-funcionario">Insira o cargo do funcionário:</label>
+					<input 
+						id="input-cargo-functionario"
+						class="inputs"
+						type="text"
+						name="cargo-funcionario"
+						minlength="5"
+						required
+						placeholder=" Digite seu cargo na empresa" 
+					>
+
+					<label for="txtArea-descricao-cargo">Escreva a função do cargo do funcionário:</label>
+					<textarea 
+						id="txtArea-descricao-cargo"
+						class="inputs"
+						rows="4" 
+						minlength="20"
+						required
+						placeholder=" Descreva a função do seu cargo na empresa" 
+					></textarea>
+
+					<button id="btn-cadastrar">Cadastrar Funcionário</button>
+				</section>
+
+				<article id="aviso_erro">
+					<p>ERRO: Nome do usuário vazio.</p><button><p class="btn_symbol"></p></button>
+				</article>
+
+			</section>
+			<section class="main-sections">
+				
+				<article class="card-funcionario">				
+					<article class="bloco-foto-nome-cargo">
+						<article>
+							<img 
+								class="img-funcionario" 
+								alt="imagem-perfil" 
+								src="img/social-media.svg"
+							>
+
+							<h2 class="nome-funcionario">Ivan Guimarães</h2>
+							<p class="cargo-funcionario">Analista de Software</p>
+						</article>
+					</article>
+					<p>
+						Executa tarefas como; teste de carregamento, manutenção 
+						de rotina etc. Também faz toda a modelagem dos dados mais o 
+						desenvolvimento do ambiente e a atualização do mesmo.
+					</p>
+					<article class="container-buttons">
+						<button class="btn-alterar">Alterar</button>
+						<button class="btn-excluir">Excluir Funcionário</button>
+					</article>
+				</article>
+
+				<article class="card-funcionario">				
+					<article class="bloco-foto-nome-cargo">
+						<article>
+							<img 
+								class="img-funcionario" 
+								alt="imagem-perfil" 
+								src="img/social-media.svg"
+							>
+
+							<h2 class="nome-funcionario">Rubens Pereira de Albuquerge da Silva Maralhães</h2>
+							<p class="cargo-funcionario">Engenheiro de Software e Analista de Dados</p>
+						</article>
+					</article>
+					<p>
+						Faz toda a checagem do desenvolvimento da aplicação auxiliando a 
+						construção de toda a topologia da aplicação.
+					</p>
+					<article class="container-buttons">
+						<button class="btn-alterar">Alterar</button>
+						<button class="btn-excluir">Excluir Funcionário</button>
+					</article>
+				</article>
+
+				<article class="card-funcionario">				
+					<article class="bloco-foto-nome-cargo">
+						<article>
+							<img 
+								class="img-funcionario" 
+								alt="imagem-perfil" 
+								src="img/social-media.svg"
+							>
+							
+							<h2 class="nome-funcionario">Ivan Guimarães</h2>
+							<p class="cargo-funcionario">Analista de Software</p>
+						</article>
+					</article>
+					<p>
+						Executa tarefas como; teste de carregamento, manutenção 
+						de rotina etc. Também faz toda a modelagem dos dados mais o 
+						desenvolvimento do ambiente e a atualização do mesmo.
+					</p>
+					<article class="container-buttons">
+						<button class="btn-alterar">Alterar</button>
+						<button class="btn-excluir">Excluir Funcionário</button>
+					</article>
+				</article>
+
+			</section>
+        </main>
+        
+	</body>
+</html>

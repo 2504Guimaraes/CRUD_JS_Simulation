@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'Titillium Regular';
+	src: url('font/TitilliumWeb/TitilliumWeb-Regular.ttf');
+}
+@font-face {
+	font-family: 'Titillium SBold';
+	src: url('font/TitilliumWeb/TitilliumWeb-SemiBold.ttf');
+}
+@font-face {
+	font-family: 'Titillium Bold';
+	src: url('font/TitilliumWeb/TitilliumWeb-Bold.ttf');
+}

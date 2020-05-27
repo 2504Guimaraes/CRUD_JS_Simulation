@@ -6,10 +6,9 @@ Using DOM elements to simulate a staff employment proccess
 3. Any variable outside local scope will be not allowed.
 4. Minimum HTML code.
 5. Folloying the rule written above, use JS code to generate new elements and  renderize them as much as possible.
-### NOTES
+## NOTES
 1. There are two indexes, one which is just a demo testing css.
 2. And the another one, which is running the code.
-
 # CRUD Simulação Javascript
 Usando elementos da DOM para simular processo de contratação de empregados em equipes de funcionários. 
 ## Regras
@@ -18,6 +17,6 @@ Usando elementos da DOM para simular processo de contratação de empregados em 
 3. Qualquer variável fora do limite de escopo local não será permitida.
 4. HTML mínimo.
 5. Seguindo as regras acima, use JS para gerar novos elementos e renderizalos em tela o máximo possível ao invés de usar html.
-### NOTAS
+## NOTAS
 1. Há dois indexes html, indexTest apenas roda css.
 2. O outro é o principal, o qual roda JS.

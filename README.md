@@ -1,6 +1,6 @@
 # CRUD JS Simulation Lesson
 Using DOM elements to simulate a staff employment proccess 
-## Rules
+## Rules:
 1. Do not allow stylesheet link embedded to index.html document.
 2. Any style content must be generated using approches that build code inside a string.
 3. Any variable outside local scope will be not allowed.
@@ -11,7 +11,7 @@ Using DOM elements to simulate a staff employment proccess
 2. And the another one, which is running the code.
 # CRUD Simulação Javascript
 Usando elementos da DOM para simular processo de contratação de empregados em equipes de funcionários. 
-## Regras
+## Regras:
 1. Não permitir conteúdo de folhas de estilo embutido diretamente na folha HTML.
 2. Qualquer conteúdo de estilo deve ser geradousando abordagens aos quais germ código via string.
 3. Qualquer variável fora do limite de escopo local não será permitida.

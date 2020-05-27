@@ -16,8 +16,9 @@ Usando elementos da DOM para simular processo de contratação de empregados em 
 4. HTML mínimo.
 5. Seguindo as regras acima, use JS para gerar novos elementos e renderizalos em tela o máximo possível ao invés de usar html.
 
-### NOTES / NOTAS
-1. There are two indexes, one which is just a demo testing css */*
-Há dois indexes html, indexTest apenas roda css.
-2. And the another one, which is running the code */*
-O outro é o principal, o qual roda JS.
+### NOTES
+1. There are two indexes, one which is just a demo testing css.
+2. And the another one, which is running the code.
+### NOTAS
+1. Há dois indexes html, indexTest apenas roda css.
+2. O outro é o principal, o qual roda JS.

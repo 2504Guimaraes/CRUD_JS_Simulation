@@ -14,7 +14,7 @@ Usando elementos da DOM para simular processo de contratação de empregados em 
 ## Regras:
 1. Não permitir conteúdo de folhas de estilo embutido diretamente na folha HTML.
 2. Qualquer conteúdo de estilo deve ser gerado usando abordagens aos quais geram código via string.
-3. Qualquer variável fora do limite de escopo local não será permitida.
+3. Qualquer variável fora do limite de escopo de função não será permitida.
 4. HTML mínimo.
 5. Seguindo as regras acima, use JS para gerar novos elementos e renderizá-los em tela o máximo possível ao invés de usar tags html.
 ## Notas:

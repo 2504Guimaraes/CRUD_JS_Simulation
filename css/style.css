@@ -19,7 +19,7 @@ body {
 #main-container {
 	width: 60%;
 	min-width: 320px;
-	max-width: 1152px;
+	max-width: 1000px;
 	min-height: 100vh;
 	margin: 0 auto;
 	display: flex;

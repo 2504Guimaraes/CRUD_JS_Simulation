@@ -7,28 +7,40 @@
 */
 
 function makeList() {
+    
     let lista = [];
     return lista;
 }
 
-function makeNewEmploy(nm, job, txt) {
+function makeNewEmploy(nm, job, txt, id_gerado) {
     return {
+        id: id_gerado,
         nome: nm,
         cargo: job,
         txt: txt,
     }
 }
 
-function AddNewEmploy(list, newEmploy) {
-    
-    let newList;
+function makeId() {
+  return 'A' + Math.random().toString(36).substr(2, 9);
+}
 
-    newList = list.push(newEmploy);
+function addNewEmploy(list, newEmploy) {
+    
+    let newList = list;
+
+    newList.push(newEmploy);
     return newList;
 }
 
 let lista = makeList();
 
-let gustavo = makeNewEmploy('Gustavo', 'Engenheiro de Software', 'Lorem Ipsum'),
-ivan = makeNewEmploy('121', '121', '121');
+let gustavo = makeNewEmploy('Gustavo', 'Engenheiro de Software', 'Lorem Ipsum', makeId()),
+yan = makeNewEmploy('Yan', 'Engenheiro fr Software', 'Lorem Ipsum', makeId());
+ivan = makeNewEmploy('Ivan', 'Engenheiro fr Software', 'Lorem Ipsum', makeId());
 
+addNewEmploy(lista, yan);
+addNewEmploy(lista, ivan);
+addNewEmploy(lista, gustavo);
+
+console.log(lista);

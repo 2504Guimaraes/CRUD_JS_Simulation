@@ -5,14 +5,13 @@
     main.js, I'll try to write them shorter as possible.
 
 */
-
 function makeList() {
     
     let lista = [];
     return lista;
 }
 
-function makeNewEmploy(nm, job, txt, id_gerado) {
+function makeNewEmploye(nm, job, txt, id_gerado) {
     return {
         id: id_gerado,
         nome: nm,
@@ -25,28 +24,37 @@ function makeId() {
   return 'A' + Math.random().toString(36).substr(2, 9);
 }
 
-function addNewEmploy(list, newEmploy) {
+function addNewEmploye(list, newEmploye) {
     
     let newList = list;
 
-    newList.push(newEmploy);
+    newList.push(newEmploye);
     return newList;
 }
 
-function deleteEmploy(list, name) {
-    return list.find( person => person.nome === name);
+function deleteEmploye(list, name) {
+
+  list.forEach((x, index) => {
+    if (x === list.find( person => person.nome === name)) {
+      list.splice(index, 1);
+    }
+  })
+  
+  return list;
 }
 
 let lista = makeList();
 
-let gustavo = makeNewEmploy('Gustavo', 'Engenheiro de Software', 'Lorem Ipsum', makeId()),
-yan = makeNewEmploy('Yan', 'Engenheiro fr Software', 'Lorem Ipsum', makeId());
-ivan = makeNewEmploy('Ivan', 'Engenheiro fr Software', 'Lorem Ipsum', makeId());
+let gustavo = makeNewEmploye('Gustavo', 'Engenheiro de Software', 'Lorem Ipsum', makeId()),
+yan = makeNewEmploye('Nathalia', 'Engenheiro fr Software', 'Lorem Ipsum', makeId());
+ivan = makeNewEmploye('Ivan', 'Engenheiro fr Software', 'Lorem Ipsum', makeId());
 
-addNewEmploy(lista, yan);
-addNewEmploy(lista, ivan);
-addNewEmploy(lista, gustavo);
+addNewEmploye(lista, yan);
+addNewEmploye(lista, ivan);
+addNewEmploye(lista, gustavo);
 
 console.log(lista);
 
-console.log(deleteEmploy(lista, 'Ivan'));
+console.log('\nLista com Usuário Ivan apagado: \n');
+
+console.log(deleteEmploye(lista, 'Gustavo'));

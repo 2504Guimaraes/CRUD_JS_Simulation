@@ -46,8 +46,8 @@ function deleteEmploye(list, name) {
 let lista = makeList();
 
 let gustavo = makeNewEmploye('Gustavo', 'Engenheiro de Software', 'Lorem Ipsum', makeId()),
-yan = makeNewEmploye('Nathalia', 'Engenheiro fr Software', 'Lorem Ipsum', makeId());
-ivan = makeNewEmploye('Ivan', 'Engenheiro fr Software', 'Lorem Ipsum', makeId());
+    yan = makeNewEmploye('Nathalia', 'Engenheiro fr Software', 'Lorem Ipsum', makeId()),
+    ivan = makeNewEmploye('Ivan', 'Engenheiro fr Software', 'Lorem Ipsum', makeId());
 
 addNewEmploye(lista, yan);
 addNewEmploye(lista, ivan);

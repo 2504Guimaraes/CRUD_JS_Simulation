@@ -33,6 +33,10 @@ function addNewEmploy(list, newEmploy) {
     return newList;
 }
 
+function deleteEmploy(list, name) {
+    return list.find( person => person.nome === name);
+}
+
 let lista = makeList();
 
 let gustavo = makeNewEmploy('Gustavo', 'Engenheiro de Software', 'Lorem Ipsum', makeId()),
@@ -44,3 +48,5 @@ addNewEmploy(lista, ivan);
 addNewEmploy(lista, gustavo);
 
 console.log(lista);
+
+console.log(deleteEmploy(lista, 'Ivan'));

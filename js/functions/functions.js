@@ -6,12 +6,9 @@
 
 */
 
-function AddNewEmploy(list, newEmploy) {
-    
-    let newList;
-
-    newList = list.push(newEmploy);
-    return newList;
+function makeList() {
+    let lista = [];
+    return lista;
 }
 
 function makeNewEmploy(nm, job, txt) {
@@ -21,3 +18,17 @@ function makeNewEmploy(nm, job, txt) {
         txt: txt,
     }
 }
+
+function AddNewEmploy(list, newEmploy) {
+    
+    let newList;
+
+    newList = list.push(newEmploy);
+    return newList;
+}
+
+let lista = makeList();
+
+let gustavo = makeNewEmploy('Gustavo', 'Engenheiro de Software', 'Lorem Ipsum'),
+ivan = makeNewEmploy('121', '121', '121');
+

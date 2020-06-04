@@ -76,7 +76,7 @@ export function makeNewEmploye(nm, job, txt, id_gerado) {
 }
 
 export function makeId() {
-return 'A' + Math.random().toString(36).substr(2, 9);
+  return 'A' + Math.random().toString(36).substr(2, 9);
 }
 
 export function addNewEmploye(list, newEmploye) {

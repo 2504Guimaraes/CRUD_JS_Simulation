@@ -1,0 +1,19 @@
+{
+  "name": "crud_js_simulation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/2504Guimaraes/CRUD_JS_Simulation.git",
+  "author": "Ivan Guimarães dos Santos da Silva <guimaraes.ivan@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "8.0.0-beta.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "dev": "webpack --mode=development -w"
+  }
+}

@@ -6,13 +6,13 @@
 
 */
 
-function makeList() {
+export function makeList() {
     
     let lista = [];
     return lista;
 }
 
-function makeNewEmploye(nm, job, txt, id_gerado) {
+export function makeNewEmploye(nm, job, txt, id_gerado) {
     return {
         id: id_gerado,
         nome: nm,
@@ -21,19 +21,17 @@ function makeNewEmploye(nm, job, txt, id_gerado) {
     }
 }
 
-function makeId() {
+export function makeId() {
   return 'A' + Math.random().toString(36).substr(2, 9);
 }
 
-function addNewEmploye(list, newEmploye) {
-    
-    let newList = list;
+export function addNewEmploye(list, ...employe) {
 
-    newList.push(newEmploye);
-    return newList;
+  list.push(employe);
+  return list;
 }
 
-function deleteEmploye(list, name) {
+export function deleteEmploye(list, name) {
 
   list.forEach((x, index) => {
     if (x === list.find( person => person.nome === name)) {
@@ -44,18 +42,18 @@ function deleteEmploye(list, name) {
   return list;
 }
 
-let lista = makeList();
+// let lista = makeList();
 
-let gustavo = makeNewEmploye('Gustavo', 'Engenheiro de Software', 'Lorem Ipsum', makeId()),
-    yan = makeNewEmploye('Nathalia', 'Engenheiro fr Software', 'Lorem Ipsum', makeId()),
-    ivan = makeNewEmploye('Ivan', 'Engenheiro fr Software', 'Lorem Ipsum', makeId());
+// let gustavo = makeNewEmploye('Gustavo', 'Engenheiro de Software', 'Lorem Ipsum', makeId()),
+//     yan = makeNewEmploye('Nathalia', 'Engenheiro fr Software', 'Lorem Ipsum', makeId()),
+//     ivan = makeNewEmploye('Ivan', 'Engenheiro fr Software', 'Lorem Ipsum', makeId());
 
-addNewEmploye(lista, yan);
-addNewEmploye(lista, ivan);
-addNewEmploye(lista, gustavo);
+// addNewEmploye(lista, yan);
+// addNewEmploye(lista, ivan);
+// addNewEmploye(lista, gustavo);
 
-console.log(lista);
+// console.log(lista);
 
-console.log('\nLista com Usuário Ivan apagado: \n');
+// console.log('\nLista com Usuário Ivan apagado: \n');
 
-console.log(deleteEmploye(lista, 'Gustavo'));
+// console.log(deleteEmploye(lista, 'Gustavo'));

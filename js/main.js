@@ -3,6 +3,7 @@
     Dependendo do argumento da função um dos dois tipos de formulários será gerado.
 */
 
+
 function fazer_formCriarAlterar(valor = 1) {
 
     const txtCriar = {

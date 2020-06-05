@@ -9,6 +9,7 @@ Using DOM elements to simulate a staff employment proccess
 ## Notes:
 1. There are two indexes, one which is just a demo testing css.
 2. And the another one, which is running the code.
+3. The repository is still under maintenance.
 # CRUD Simulação Javascript
 Usando elementos da DOM para simular processo de contratação de empregados em equipes de funcionários. 
 ## Regras:
@@ -20,3 +21,4 @@ Usando elementos da DOM para simular processo de contratação de empregados em 
 ## Notas:
 1. Há dois indexes html, indexTest apenas roda css.
 2. O outro é o principal, o qual roda o código JS.
+3. O repositório ainda está em manutenção.

@@ -10,7 +10,7 @@ Using DOM elements to simulate a staff employment proccess
 1. There are two indexes, one which is just a demo testing css.
 2. And the another one, which is running the code.
 3. The repository is still under maintenance.
-4. Sooner as possible I'll replace the current branch master completely by the **fixing_problems** branch, for a question of features that ES6 to the newest ones in JS can not comply in most browsers. 
+4. Sooner as possible I'll replace the current branch master completely by the **fixing_problems** branch. It's for a question of features that ES6 to the newest versions can not comply in most browsers. 
 # CRUD Simulação Javascript
 Usando elementos da DOM para simular processo de contratação de empregados em equipes de funcionários. 
 ## Regras:

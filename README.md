@@ -10,7 +10,8 @@ Using DOM elements to simulate a staff employment proccess
 1. There are two indexes, one which is just a demo testing css.
 2. And the another one, which is running the code.
 3. The repository is still under maintenance.
-4. Sooner as possible I'll replace the current branch master completely by the *fixing_problems* branch for a question of features that ES6 JS can not comply in most browsers. 
+4. Sooner as possible I'll replace the current branch master completely by the **fixing_problems** branch for a question of 
+features that ES6 JS can not comply in most browsers. 
 # CRUD Simulação Javascript
 Usando elementos da DOM para simular processo de contratação de empregados em equipes de funcionários. 
 ## Regras:
@@ -18,7 +19,8 @@ Usando elementos da DOM para simular processo de contratação de empregados em 
 2. Qualquer conteúdo de estilo deve ser gerado usando abordagens aos quais geram código via string.
 3. Qualquer variável fora do limite de escopo de função não será permitida.
 4. HTML mínimo.
-5. Seguindo as regras acima, use JS para gerar novos elementos e renderizá-los em tela o máximo possível ao invés de usar tags html.
+5. Seguindo as regras acima, use JS para gerar novos elementos e renderizá-los em tela o máximo possível ao invés de usar 
+tags html.
 ## Notas:
 1. Há dois indexes html, indexTest apenas roda css.
 2. O outro é o principal, o qual roda o código JS.

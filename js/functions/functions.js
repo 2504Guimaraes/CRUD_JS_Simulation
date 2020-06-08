@@ -25,7 +25,7 @@ export function makeId() {
   return 'A' + Math.random().toString(36).substr(2, 9);
 }
 
-export function addNewEmploye(list, ...employe) {
+export function addNewEmploye(list, employe) {
 
   list.push(employe);
   return list;

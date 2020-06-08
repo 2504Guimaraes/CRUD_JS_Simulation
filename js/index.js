@@ -37,6 +37,8 @@ let gustavo = Functions.makeNewEmploye(
     Functions.makeId());
 
 
-Functions.addNewEmploye(lista, yan, ivan, gustavo);
+Functions.addNewEmploye(yan);
+Functions.addNewEmploye(ivan);
+Functions.addNewEmploye(gustavo);
 
 console.log(lista);

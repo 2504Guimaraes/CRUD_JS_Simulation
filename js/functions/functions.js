@@ -31,29 +31,13 @@ export function addNewEmploye(list, employe) {
   return list;
 }
 
-export function deleteEmploye(list, name) {
+export function deleteEmploye(list, id) {
 
   list.forEach((x, index) => {
-    if (x === list.find( person => person.nome === name)) {
+    if (x === list.find( person => person.id === id)) {
       list.splice(index, 1);
     }
   })
   
   return list;
 }
-
-// let lista = makeList();
-
-// let gustavo = makeNewEmploye('Gustavo', 'Engenheiro de Software', 'Lorem Ipsum', makeId()),
-//     yan = makeNewEmploye('Nathalia', 'Engenheiro fr Software', 'Lorem Ipsum', makeId()),
-//     ivan = makeNewEmploye('Ivan', 'Engenheiro fr Software', 'Lorem Ipsum', makeId());
-
-// addNewEmploye(lista, yan);
-// addNewEmploye(lista, ivan);
-// addNewEmploye(lista, gustavo);
-
-// console.log(lista);
-
-// console.log('\nLista com Usuário Ivan apagado: \n');
-
-// console.log(deleteEmploye(lista, 'Gustavo'));

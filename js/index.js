@@ -1,4 +1,5 @@
-import * as Functions from './Functions/functions';
+import * as Functions from './functions/functions';
+import * as FormFunc from './functions/formfunctions';
 
 let lista = Functions.makeList();
 
@@ -26,3 +27,5 @@ Functions.addNewEmploye(lista, ivan);
 Functions.addNewEmploye(lista, gustavo);
 
 console.log(lista);
+
+FormFunc.makeFormCreate();
